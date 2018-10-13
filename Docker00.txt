@@ -1,0 +1,25 @@
+1 The way to show status of container
+	docker ps
+2 The way to show all images in local
+	docker images
+3 The way to get specific image
+	docker pull [name of image]:[tags]
+4 The way to stop specific cintainer 
+	docker stop [first 4 characters of containerID]
+5 The way to remove specific  container
+	docker rm [first 4 characters of containerID]
+6 The way to remve specific image
+	docker rmi [first 4 characters of imageID]
+7 The way to link file to specific image
+	docker run -it -p [local port]:[container port] -v [directory of local file]:[directory of container]
+8 The way to run application of specific image
+	docker run -p [local port]:[container port] [image]:[tage] [application of image]
+9 The way to run specific container 
+	dicker start [first 4 characters of containerID]
+
+
+
+
+
+
+#pwd to show directory
